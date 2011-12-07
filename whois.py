@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#whois.py
+#whois.py  
+#writen by: 2hei   website:http://2hei.net
+
 import sys
 import socket
 
@@ -237,7 +239,7 @@ def whois(domain):
                  'cn':'whois.cnnic.net.cn',
                  'cc':'ccwhois.verisign-grs.com',
                  'tv':'tvwhois.verisign-grs.com',
-                 #'jobs':'jobswhois.verisign-grs.com',
+                 'jobs':'jobswhois.verisign-grs.com',
                  'info':'whois.afilias.net',
                  'biz':'whois.neulevel.biz',
                  'name':'whois.nic.name',
@@ -270,8 +272,7 @@ if __name__ == "__main__":
     #print whois("lvye.info")
     #print whois("google.biz")
     #print whois("moko.cc")
-    print whois("pps.tv")
+    print whois("google.com")
     #print whois("goto.jobs")
     #print whois("mystock.name")
-    #print whois("sina.com.cn")
     
