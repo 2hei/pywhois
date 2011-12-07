@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 #whois.py  
-#writen by: 2hei   website:http://2hei.net
+#writen by: 2hei   Website:http://2hei.net
 
 import sys
 import socket
